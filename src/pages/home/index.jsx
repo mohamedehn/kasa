@@ -5,7 +5,7 @@ function Home() {
     <div className="App">
       <header className="App-header">
         <p>
-          Hello from the Kasa project
+        
         </p>
       </header>
     </div>
