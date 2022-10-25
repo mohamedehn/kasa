@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header{
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  padding-right: 100px;
+  padding-left: 100px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  .logoKasa {
+    width : 210.32px;
+    height : 68px;
+    position: absolute;
+  }
+  nav{
+    flex-basis: 30%;
+    height: 34px;
+    display: flex;
+    justify-content: space-around;
+    .accueil{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 142.6%;
+    /* or 34px */
+      display: flex;
+      align-items: flex-end;
+      text-align: right;
+      text-decoration-line: underline;
+      color: #FF6060;
+    }
+    .aPropos{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 142.6%;
+    /* or 34px */
+      display: flex;
+      align-items: flex-end;
+      text-align: right;
+      color: #FF6060;
+    }
+  }
+}

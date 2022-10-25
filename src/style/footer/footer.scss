@@ -1,0 +1,38 @@
+.footer{
+    background-color: black;
+    height: 209px;
+    width: 100%;
+    top: 4333px;
+    border-radius: 0px;
+    display: flex;
+    position: relative;
+    .logoKasaFooter{
+        height: 39.444419860839844px;
+        width: 122px;
+        left: 659px;
+        top: 66px;
+        border-radius: 0px;
+        display: flex;
+        align-self: center;
+        position: absolute;
+        left: 45.76%;
+        right: 45.76%;
+        top: 31.58%;
+        bottom: 49.55%;
+    }
+    p{
+        color: white;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+        border-radius: nullpx;
+        position: absolute;
+        left: 32.15%;
+        right: 32.22%;
+        top: 64.11%;
+        bottom: 13.88%;
+    }
+}
