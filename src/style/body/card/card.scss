@@ -1,0 +1,46 @@
+@import "../../utils/mixin";
+
+.cardBackground{
+    background-color: red;
+}
+.cardApp{
+    .logements{
+        flex-wrap: wrap;
+        display: flex;
+        padding-top: 40px;
+        height: 2700px;
+        width: 85%;
+        margin: auto;
+        justify-content: space-evenly;
+        margin-top: 225px;
+        background: #F7F7F7;
+        border-radius: 25px;
+        position: absolute;
+        margin-left: 90px;
+        .coverCard{
+            display: flex;
+            width: 340px;
+            height: 340px;
+            margin-bottom: 40px;
+            position: relative;
+            .coverPictures{
+                width: 340px;
+                height: 340px;
+            }
+            .cardTitle {
+                position: absolute;
+                left: 70px;
+                top: 270px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 142.6%;
+                display: flex;
+                align-items: flex-end;
+                //color: #FFFFFF;
+            }
+        }
+    }
+    }
+    

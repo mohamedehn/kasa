@@ -1,0 +1,4 @@
+@mixin mobile-only {
+    @media screen and (max-width: 767px){
+    @content;
+}}

@@ -1,3 +1,5 @@
+@import '../utils/mixin';
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
@@ -13,16 +15,27 @@
   height: 68px;
   display: flex;
   align-items: center;
+  @include mobile-only{
+    padding-right: 0px;
+    padding-left: 20px;
+  }
   .logoKasa {
     width : 180px;
     height : 60px;
     position: absolute;
+    @include mobile-only{
+      width: 145px;
+      height: 47px;
+    }
   }
   nav{
     flex-basis: 30%;
     height: 34px;
     display: flex;
     justify-content: space-around;
+    @include mobile-only{
+      flex-basis: auto;
+    }
     .accueil{
       font-family: 'Montserrat';
       font-style: normal;
