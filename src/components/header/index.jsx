@@ -7,7 +7,7 @@ import '../../style/index.css'
 function Header() {
     return (
         <div className='header'>
-        <img src={logo} alt="logo" className='logoKasa'/>,
+        <img src={logo} alt="logo" className='logoKasa'/>
         <nav className='nav'>
             <Link to="/" className='accueil'>Accueil</Link>
             <Link to="/apropos" className='aPropos'>A Propos</Link>

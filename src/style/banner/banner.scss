@@ -1,31 +1,26 @@
-@import '../../utils/mixin';
+@import '../utils/mixin';
 
 .section{
-    position: absolute;
+    position: relative;
     height: 190px;
-    width: 96%;
-    margin: auto;
-    margin-left: 80px;
+    width: 100%;
+    justify-content: center;
     display: flex;
-    @include mobile-only{
-        width: 100%;
-        margin-left: 40px;
-    }
     p{
         position: absolute;
-        left: 20.9%;
-        right: 25.14%;
-        top: 44.32%;
-        bottom: 69.04%;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 55px;
+        font-size: 52px;
         line-height: 142.6%;
-        /* or 68px */
+        width: 85%;
         display: flex;
         align-items: flex-end;    
+        justify-content: center;
         color: #FFFFFF;
+        @include mobile-only{
+            font-size: 40px;
+        }
     }
     .maskGroup{
         height: 190px;

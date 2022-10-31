@@ -1,5 +1,5 @@
-import background from '../../../images/IMG.png'
-import '../../../style//body/banner/banner.scss'
+import background from '../../images/IMG.png'
+import '../../style/banner/banner.scss'
 
 function Section() {
     return (
