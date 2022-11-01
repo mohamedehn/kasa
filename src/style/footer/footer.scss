@@ -12,6 +12,9 @@
     @include mobile-only{
         top: 5000px;
     }
+    @include tablet-only{
+        top:100px;
+    }
     .logoKasaFooter{
         height: 39.444419860839844px;
         width: 122px;

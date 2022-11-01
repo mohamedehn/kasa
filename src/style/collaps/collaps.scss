@@ -1,0 +1,53 @@
+@import '../utils/mixin';
+
+.sectionPropos{
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 20px;
+    margin: auto;
+    .collaps{
+        width: 100%;   
+        .collapsContent{
+            justify-content: space-between;
+            display: flex;
+            background: #FF6060;
+            border-radius: 5px;
+            height: 30px;  
+            .collapsTitle{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                display: flex;
+                align-items: center;    
+                color: #FFFFFF;
+                padding-left: 15px;
+            }
+        }
+        .collapsText{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            color: #FF6060;
+            padding-left: 15px;
+            background: #F7F7F7;
+            border-radius: 5px;
+            height: 100%;
+            p{
+                font-size: 20px;
+                text-align: initial;
+                padding-top: 15px;
+            }
+        }
+        button{
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: white;
+            &:focus{
+                transform: rotate(180deg)
+            }
+        }
+    }
+}

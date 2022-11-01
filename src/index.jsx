@@ -1,3 +1,4 @@
+// Dans ce fichier nous importons tout les composants ainsi que nos routes afin de lier sur notre application React
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style/index.css';
@@ -8,10 +9,6 @@ import Logement from './pages/logement';
 import Error from './pages/404'
 import Header from './components/header'
 import Footer from './components/footer'
-import Section from './components/banner'
-import Card from './components/card'
-import Banner from './components/banner-apropos'
-import Collaps from './components/collaps'
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -19,9 +16,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Router>
     <Header/>
       <Routes>
-        <Route exact path="/" element={<><Home /> <Section /> <Card /></>}/>
-        <Route path="/apropos" element={<><Propos /> <Banner /> <Collaps/></>}/>
-        <Route path="/logement" element={<Logement />}/>
+        <Route exact path="/" element={<><Home /> </>}/>
+        <Route path="/apropos" element={<><Propos /> </>}/>
+        <Route path="/logement/:id" element={<Logement />}/>
         <Route path='*' element={<Error />}/>
       </Routes>
       <Footer/>

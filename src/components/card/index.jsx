@@ -10,9 +10,11 @@ import "../../style/card/card.scss"
             Logements.map( logement =>{
                 return (
                     <div className="coverCard" key={logement.id}>
-                        <img src={logement.cover} alt="coverPictures" className="coverPictures"/>
-                        <p className="cardTitle" key={logement.id}>
-                        {logement.title}</p>
+                        <a href="/logement/:id" key={logement.id}>
+                            <img src={logement.cover} alt="coverPictures" className="coverPictures"/>
+                            <p className="cardTitle" key={logement.id}>
+                            {logement.title}</p>
+                        </a>
                     </div>
                 )
             })

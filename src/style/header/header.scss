@@ -33,14 +33,14 @@
     justify-content: space-around;
     margin-right: 17px;
     @include mobile-only{
-      flex-basis: 50%;
+      flex-basis: 55%;
       margin-right: 0;
     }
     a{
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 500;
-      font-size: 24px;
+      font-size: 20px;
       line-height: 142.6%;
       text-decoration: none;
       text-transform: uppercase;

@@ -6,6 +6,7 @@
     width: 100%;
     justify-content: center;
     display: flex;
+    margin-top: 40px;
     p{
         position: absolute;
         font-family: 'Montserrat';
@@ -18,6 +19,8 @@
         align-items: flex-end;    
         justify-content: center;
         color: #FFFFFF;
+        padding-top: 65px;
+        text-align: inherit;
         @include mobile-only{
             font-size: 40px;
         }
@@ -43,6 +46,4 @@
             border-radius: 25px;
         }
     }
-    
-    
 }

@@ -8,7 +8,7 @@
         flex-wrap: wrap;
         display: flex;
         padding-top: 40px;
-        height: 2700px;
+        height: 2800px;
         width: 90%;
         margin: auto;
         justify-content: space-evenly;
@@ -25,8 +25,8 @@
         }
         .coverCard{
             display: flex;
-            width: 340px;
-            height: 340px;
+            width: 345px;
+            height: 345px;
             margin-bottom: 40px;
             position: relative;
             .coverPictures{
@@ -36,13 +36,13 @@
             }
             .cardTitle {
                 position: absolute;
-                left: 20px;
-                top: 270px;
+                left: 12px;
+                top: 290px;
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: bolder;
                 color: white;
-                font-size: 19px;
+                font-size: 18.5px;
                 line-height: 142.6%;
                 display: flex;
                 align-items: flex-end;
