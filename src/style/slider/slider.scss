@@ -1,0 +1,31 @@
+.slider{
+    .arrowNext{
+        position: absolute;
+        z-index: 1;
+        top: 350px;
+        right: 60px;
+        height: 100px;
+        width: 70px;
+        color: white;
+    }
+    .arrowPrev{
+        position: absolute;
+        z-index: 1;
+        top: 350px;
+        left: 60px;
+        height: 100px;
+        width: 70px;
+        color: white;
+    }
+    .sliderDiv{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .sliderImg{
+            width: 90%;
+            height: 605px;
+            position: relative;
+            border-radius: 25px
+        }
+    }
+}

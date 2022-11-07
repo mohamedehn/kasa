@@ -1,0 +1,10 @@
+.lodgingContent{
+    .lodgingBody{
+        display: flex;
+        .lodgingTitle{
+            display: grid;
+            justify-items: baseline;
+            margin-left: 48px;
+        }
+    }
+}

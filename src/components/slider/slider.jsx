@@ -1,46 +1,40 @@
-// Ici sera présent le carroussel de la page logement. Installation de react responsive carousel
-import { Carousel } from "react-responsive-carousel"
-import { useParams } from "react-router-dom";
-import data from '../../data.json'
+import { useState } from 'react'
+import {MdArrowBackIosNew} from 'react-icons/md'
+import {MdArrowForwardIos} from 'react-icons/md'
+import '../../style/slider/slider.scss'
 
+function Slider ({slider}){
+    
+    let [currentSlide, setCurrentSlide] = useState(0);   
+    
+    const sliderLength = slider.length
 
-function Slider (){
+    function nextSlide (){
+        setCurrentSlide(currentSlide === sliderLength - 1 ? 0 : currentSlide + 1)
+    }
 
-    const params = useParams();
+    function previousSlide (){
+        setCurrentSlide(currentSlide === 0 ? sliderLength - 1 : currentSlide - 1)
+    }
 
     return(
-        <Carousel>
-            {data.filter((lodging)=> lodging.id === params.id).map(data, index => (
-                <div key={data.id - index}>
-                    <img src={data.pictures} alt="" />
-                </div>
-            ))}
-        </Carousel>
+        <div className='slider'> 
+            <MdArrowBackIosNew className='arrowPrev' onClick={()=>previousSlide()}/>
+            <MdArrowForwardIos className='arrowNext'onClick={()=>nextSlide()}/>      
+        {
+            slider.map((pictures, index)=>{
+                return(
+                    <div className='sliderDiv' key={index}>
+                        {
+                            index === currentSlide && <img src={pictures} alt="" className='sliderImg'/> 
+                        }
+                    </div>  
+                )   
+            })
+        }                        
+        </div>
     )
 }
 
 export default Slider
 
-//Test pour filtrer les images injecter dans le caroussel
-// function Slider (){
-
-//     const params = useParams();
-//     const navigate = useNavigate();
-
-//     useEffect(()=>{
-//         let lodging = data.find((lodging) => params.id === lodging.id);
-//         if (!lodging){
-//             navigate("/error")
-//         }
-//     });
-
-//     return(
-//         <Carousel>
-//             {data.filter((lodging)=> lodging.id === params.id).map(data, index => (
-//                 <div key={data.id - index}>
-//                     <img src={data.pictures} alt="" />
-//                 </div>
-//             ))}
-//         </Carousel>
-//     )
-// }
