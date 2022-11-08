@@ -1,3 +1,7 @@
+// Dans ce fichier on récupère nos composants banner et collaps qu'on affiche sur la page logement.
+// Afin d'avoir les collaps qui se ferme à l'ouverture de l'un (et éviter que tout soit ouvert) on utilise usestate. On donnera
+// une valeur de départ à -1 (indiquant que tout est fermé) et en fonction de l'état au click sur le composant on déclenche un style display block
+//et / ou none
 import Collaps from "../../components/collaps";
 import Banner from '../../components/banner-apropos';
 import { useState } from "react";

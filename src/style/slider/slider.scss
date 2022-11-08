@@ -1,4 +1,5 @@
 .slider{
+    margin-top: 20px;
     .arrowNext{
         position: absolute;
         z-index: 1;
@@ -7,6 +8,7 @@
         height: 100px;
         width: 70px;
         color: white;
+        cursor: pointer;
     }
     .arrowPrev{
         position: absolute;
@@ -20,7 +22,6 @@
     .sliderDiv{
         display: flex;
         justify-content: center;
-        margin-top: 20px;
         .sliderImg{
             width: 90%;
             height: 605px;

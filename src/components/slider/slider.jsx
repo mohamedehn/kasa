@@ -1,3 +1,7 @@
+// Dans ce fichier on stock notre carroussel produit grâce ) useState. On stock les photos dans un tableau que l'on renvoi avec MAP
+// on attribue l'index à la première photo et grâce à l'évènement onclick et aux fonctions nextslide et previousslide on modifie le state
+// en modifiant le state on change de photo (stocké dans le tableau). Enfin les conditions stockées dans nos fonctions nous permettent 
+// de revenir à la première photo si l'on dépasse la longueur du tableau grâce à length
 import { useState } from 'react'
 import {MdArrowBackIosNew} from 'react-icons/md'
 import {MdArrowForwardIos} from 'react-icons/md'

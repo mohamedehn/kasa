@@ -1,10 +1,50 @@
 .lodgingContent{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
     .lodgingBody{
         display: flex;
+        justify-content: space-between;
         .lodgingTitle{
-            display: grid;
-            justify-items: baseline;
-            margin-left: 48px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            color: #FF6060;
+            .lodgingP{
+                margin: 0;
+            }
+            .lodgingLocation{
+                font-size: 17px;
+                margin-top: 10px;
+            }
+            .lodgingName{
+                margin-top: 30px;
+            }
+        }
+        .lodgingHost{
+            display: flex;
+            margin-top: 30px;
+            align-items: flex-start;
+            .hostPictures{
+                width: 64px;
+                height: 64px;
+                left: 1273px;
+                top: 567px;
+                background: #C4C4C4;
+                border-radius: 40px;
+            }
+            .hostName{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 142.6%;
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                color: #FF6060;
+            }
         }
     }
 }

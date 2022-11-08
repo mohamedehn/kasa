@@ -1,8 +1,9 @@
-// Utilisation ici du hook react useparams afin de récupérer dans l'url l'id du logement concerné.
+// Utilisation ici du hook react useparams afin de récupérer dans l'url l'id du logement concerné. Une fois le logement récupéré
+//on passera une variable product qui stockera les données. Et on utilisera dans les composants le props product.
 // utilisation de useeffect afin de comparer l'id récupérer via params et l'id de l'api local (data.json)
 // Usenavigate permet de rediriger vers une page erreur si un logement n'existe pas
+
 import React from "react";
-//import { useEffect } from "react";
 //import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import data from '../data.json'
