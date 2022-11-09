@@ -9,6 +9,7 @@ import { useParams } from "react-router-dom";
 import data from '../data.json'
 import Slider from "../components/slider/slider";
 import LodgingContent from "../components/logement-content";
+//import { useEffect } from "react";
 
 const Logement = ()=> {
 
@@ -17,14 +18,14 @@ const Logement = ()=> {
 
     const product = data.find((product) => params.id === product.id);
     const { pictures } = product
-
+    
     return(
         <div className="lodgingDetail">
             {
                 data.filter((product) => product.id === params.id).map((data, index)=>(
                     <div className="ficheLogement" key={data.id - index}>
                         <Slider slider={pictures}/>
-                        <LodgingContent product={product}/>
+                        <LodgingContent product={product} />
                     </div>
                 )   
                 )

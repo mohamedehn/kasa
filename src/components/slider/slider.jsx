@@ -21,22 +21,37 @@ function Slider ({slider}){
         setCurrentSlide(currentSlide === 0 ? sliderLength - 1 : currentSlide - 1)
     }
 
-    return(
+    // Ci-dessous fonction pour retourner les images avec les flèches. Condition employées afin de ne pas afficher de flèches si 1 img
+
+    const numberPictures = () => {
+        if (sliderLength - 1 >= 1){
+            return true;
+        }else{
+            return false;
+        }};
+
+    return numberPictures ()? (
         <div className='slider'> 
             <MdArrowBackIosNew className='arrowPrev' onClick={()=>previousSlide()}/>
-            <MdArrowForwardIos className='arrowNext'onClick={()=>nextSlide()}/>      
+            <MdArrowForwardIos className='arrowNext'onClick={()=>nextSlide()}/>  
         {
             slider.map((pictures, index)=>{
                 return(
                     <div className='sliderDiv' key={index}>
-                        {
-                            index === currentSlide && <img src={pictures} alt="" className='sliderImg'/> 
-                        }
+                        {index === currentSlide && <img src={pictures} alt="" className='sliderImg'/>}
                     </div>  
                 )   
             })
         }                        
-        </div>
+        </div> 
+    ) :(
+        slider.map((pictures, index)=>{
+            return(
+                <div className='sliderSingleImg' key={index}>
+                    {index === currentSlide && <img src={pictures} alt="" className='sliderSingleImg'/>}
+                </div>  
+            )   
+        })     
     )
 }
 

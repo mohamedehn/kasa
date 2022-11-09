@@ -18,6 +18,7 @@
         height: 100px;
         width: 70px;
         color: white;
+        cursor: pointer;
     }
     .sliderDiv{
         display: flex;
@@ -28,5 +29,16 @@
             position: relative;
             border-radius: 25px
         }
+    }
+}
+.sliderSingleImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .sliderSingleImg{
+        width: 90%;
+        height: 605px;
+        position: relative;
+        border-radius: 25px
     }
 }
