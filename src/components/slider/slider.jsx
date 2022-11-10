@@ -39,6 +39,7 @@ function Slider ({slider}){
                 return(
                     <div className='sliderDiv' key={index}>
                         {index === currentSlide && <img src={pictures} alt="" className='sliderImg'/>}
+                        <span className="numberSlide">{currentSlide + 1}/{sliderLength}</span>
                     </div>  
                 )   
             })

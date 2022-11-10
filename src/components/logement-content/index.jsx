@@ -1,12 +1,13 @@
 // Dans ce fichier nous créeons notre composant qui va permettre d'injecter tout les informations du corps de la page logement.
 // on passe en props le "product" du composant parent "logement" ainsi on peut récupérer l'ensemble des données.
 import '../../style/logement-content/logement-content.scss'
-//import data from '../../data.json'
-//import { useParams } from 'react-router-dom';
+import {faStar} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Collaps from '../collaps'
 
 function LodgingContent ({product}){
 
-    //const params = useParams()
+    const rateArray = [1,2,3,4,5]
 
     return(
         <div className='lodgingContent'>
@@ -20,25 +21,27 @@ function LodgingContent ({product}){
                         <img src={product.host.picture} alt="" className='hostPictures' />
                     </div>
                 </div>
-                <div className="logementTags">
-                        <div className="tags">{product.tags[0]}</div>
-                        <div className="tags">{product.tags[1]}</div>
-                        <div className="tags">{product.tags[2]}</div>
-                        <div className="tags">{product.tags[3]}</div>
-                        <div className="ratings">{product.rating}</div>
+                <div className="lodgingTags">
+                        <div className="tags">
+                            {product.tags.map((tag, index)=>(
+                                <div className='tag' key={index}>{tag}</div>
+                            ))}
+                        </div>
+                        <div className="ratings">
+                            {
+                                rateArray.map((stars, index)=>(
+                                    stars <= product.rating ? (<div key={index}><FontAwesomeIcon icon={faStar}/></div>) : 
+                                    (<div key={index}><FontAwesomeIcon icon={["fa-duotone", "fa-star"]} className="greyStar"/></div>)
+                                ))
+                            }
+                        </div>
+                </div>
+                <div className='lodgingText'>
+                            <div className='lodgingDescription'> <Collaps label="Description"/> {product.description}</div>
+                            <div className='lodgingEquipments'> <Collaps label="Equipements"/> {product.equipments} </div>
                 </div>
         </div>
     )
 }
 
 export default LodgingContent
-
-// {
-//     product.map((tags, index)=>{
-//         return(
-//             <div key={index}>
-//                 {index === <div>{tags}</div>}
-//             </div>
-//         )
-//     })
-// } 

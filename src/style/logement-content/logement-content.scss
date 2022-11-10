@@ -9,7 +9,7 @@
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 500;
-            font-size: 36px;
+            font-size: 30px;
             color: #FF6060;
             .lodgingP{
                 margin: 0;
@@ -44,7 +44,42 @@
                 align-items: flex-end;
                 text-align: right;
                 color: #FF6060;
+                margin-right: 10px;
             }
         }
+    }
+    .lodgingTags{
+        display: flex;
+        justify-content: space-between;
+       .tags{
+           display: flex;
+           margin-top: 15px;
+           .tag{
+                margin-right: 30px;
+                background: #FF6060;
+                border-radius: 10px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 170.6%;
+                text-align: center; 
+                color: #FFFFFF;
+                height: 25px;
+                width: 115px;
+                left: 0px;
+                top: 0px;
+                border-radius: 10px;
+           }
+       }
+       .ratings{
+           display: flex ;
+           .greyStar{
+               color: #80808069;
+           }
+       }  
+    }
+    .lodgingText{
+        display: flex;
     }
 }
