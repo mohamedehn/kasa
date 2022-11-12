@@ -9,9 +9,6 @@
     display: flex;
     position: relative;
     justify-content: center;
-    @include mobile-only{
-        top: 5000px;
-    }
     @include tablet-only{
         top:100px;
     }

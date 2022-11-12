@@ -1,3 +1,4 @@
+@import "../utils/mixin";
 .lodgingContent{
     margin-right: auto;
     margin-left: auto;
@@ -33,6 +34,7 @@
                 top: 567px;
                 background: #C4C4C4;
                 border-radius: 40px;
+                margin-top: 15px;
             }
             .hostName{
                 font-family: 'Montserrat';
@@ -45,6 +47,8 @@
                 text-align: right;
                 color: #FF6060;
                 margin-right: 10px;
+                flex-wrap: wrap;
+                width: 56%;
             }
         }
     }
@@ -81,5 +85,34 @@
     }
     .lodgingText{
         display: flex;
+        display: flex;
+        justify-content: space-between;
+        .lodgingDescription{
+            width: 45%;
+            .sectionLodging{
+                width: 100%;
+                justify-content: space-between;
+                display: flex;
+                padding-top: 20px;
+            }
+            .description{
+                @include descriptionEquipements;
+            }
+        }
+        .lodgingEquipments{
+            width: 45%;
+            .sectionLodging{
+                width: 100%;
+                justify-content: space-between;
+                display: flex;
+                padding-top: 20px;
+            }
+            .equipments{
+                @include descriptionEquipements;
+                .listEquipments{
+                    font-family: 'Montserrat';
+                }
+            }
+        }
     }
 }

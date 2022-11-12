@@ -16,9 +16,16 @@ const Logement = ()=> {
     const params = useParams();
     //const navigate = useNavigate();
 
-    const product = data.find((product) => params.id === product.id);
-    const { pictures } = product
+    // useEffect(()=>{
+    //     if(params !== product.id){
+    //         navigate('./error')
+    //     }
+    // })
+
+    const product = data.find((product) => params.id === product.id) 
     
+    const { pictures } = product
+
     return(
         <div className="lodgingDetail">
             {

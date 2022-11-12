@@ -7,7 +7,7 @@ import { faAngleUp, faAngleDown } from '@fortawesome/free-solid-svg-icons'
 function Collaps({label, number, updateNumber, currentNumber, children}){
     
     return(
-    <section className="sectionPropos">
+    <section className="sectionPropos sectionLodging">
         <div className="collaps">
             <div className="collapsContent" onClick={()=> updateNumber(number === currentNumber? -1 : number)}>
                 <div className='collapsTitle'>{label}</div>

@@ -37,8 +37,15 @@ function LodgingContent ({product}){
                         </div>
                 </div>
                 <div className='lodgingText'>
-                            <div className='lodgingDescription'> <Collaps label="Description"/> {product.description}</div>
-                            <div className='lodgingEquipments'> <Collaps label="Equipements"/> {product.equipments} </div>
+                            <div className='lodgingDescription'> <Collaps label="Description"/> 
+                                <div className='description'>{product.description}</div>
+                            </div>
+                            <div className='lodgingEquipments'> <Collaps label="Equipements"/> 
+                                <div className='equipments'>{product.equipments.map((list, index)=>(
+                                    <div key={index} className='listEquipments'>{list}</div>
+                                ))}
+                                </div>
+                            </div>
                 </div>
         </div>
     )
