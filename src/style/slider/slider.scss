@@ -1,24 +1,21 @@
+@import "../utils/mixin";
 .slider{
     margin-top: 20px;
     .arrowNext{
-        position: absolute;
-        z-index: 1;
-        top: 350px;
-        right: 60px;
-        height: 100px;
-        width: 70px;
-        color: white;
-        cursor: pointer;
+        @include arrowNext;
+        @include mobile-only{
+            top: 204px;
+            width: 25px;
+            right: 15px;
+        }
     }
     .arrowPrev{
-        position: absolute;
-        z-index: 1;
-        top: 350px;
-        left: 60px;
-        height: 100px;
-        width: 70px;
-        color: white;
-        cursor: pointer;
+        @include arrowPrev;
+        @include mobile-only{
+            top: 204px;
+            width: 25px;
+            left: 15px;
+        }
     }
     .sliderDiv{
         display: flex;
@@ -29,6 +26,9 @@
             position: relative;
             border-radius: 25px;
             object-fit: cover;
+            @include mobile-only{
+                height: 270px;
+            }
         }
         .numberSlide{
             position: absolute;
@@ -41,7 +41,10 @@
             align-items: flex-end;
             text-align: center;
             color: #FFFFFF;
-            top : 680px
+            top : 680px;
+            @include mobile-only{
+                font-size: 0;
+            }
         }
     }
 }
@@ -54,6 +57,9 @@
         width: 90%;
         height: 605px;
         position: relative;
-        border-radius: 25px
+        border-radius: 25px;
+        @include mobile-only{
+            height: 270px;
+        }
     }
 }

@@ -20,3 +20,25 @@
     font-size: 20px;
     padding-top: 20px;
 }
+
+@mixin arrowPrev{
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 60px;
+    height: 100px;
+    width: 70px;
+    color: white;
+    cursor: pointer;
+}
+
+@mixin arrowNext{
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    right: 60px;
+    height: 100px;
+    width: 70px;
+    color: white;
+    cursor: pointer;
+}

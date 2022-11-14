@@ -6,6 +6,9 @@
     .lodgingBody{
         display: flex;
         justify-content: space-between;
+        @include mobile-only{
+            display: block;
+        }
         .lodgingTitle{
             font-family: 'Montserrat';
             font-style: normal;
@@ -27,6 +30,10 @@
             display: flex;
             margin-top: 30px;
             align-items: flex-start;
+            @include mobile-only{
+                position: absolute;
+                right: 12px;
+            }
             .hostPictures{
                 width: 64px;
                 height: 64px;
@@ -35,6 +42,11 @@
                 background: #C4C4C4;
                 border-radius: 40px;
                 margin-top: 15px;
+                @include mobile-only{
+                    width: 48px;
+                    height: 48px;
+                    margin-top: 19px;
+                }
             }
             .hostName{
                 font-family: 'Montserrat';
@@ -49,12 +61,18 @@
                 margin-right: 10px;
                 flex-wrap: wrap;
                 width: 56%;
+                @include mobile-only{
+                    font-size: 18px;
+                }
             }
         }
     }
     .lodgingTags{
         display: flex;
         justify-content: space-between;
+        @include mobile-only{
+            display: block;
+        }
        .tags{
            display: flex;
            margin-top: 15px;
@@ -78,17 +96,33 @@
        }
        .ratings{
            display: flex ;
+           font-size: 27px;
+           @include mobile-only{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 24px;
+           }
            .greyStar{
-               color: #80808069;
+               color: #E3E3E3;
+           }
+           .pinkStar{
+               color : #FF6060;
            }
        }  
     }
     .lodgingText{
         display: flex;
-        display: flex;
         justify-content: space-between;
+        @include mobile-only{
+            display: block;
+        }
         .lodgingDescription{
             width: 45%;
+            @include mobile-only{
+                width: 90%;
+                justify-content: center;
+                display: inline;
+            }
             .sectionLodging{
                 width: 100%;
                 justify-content: space-between;
@@ -101,6 +135,11 @@
         }
         .lodgingEquipments{
             width: 45%;
+            @include mobile-only{
+                width: 90%;
+                justify-content: center;
+                display: inline;
+            }
             .sectionLodging{
                 width: 100%;
                 justify-content: space-between;

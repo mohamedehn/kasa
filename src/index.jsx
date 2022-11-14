@@ -1,4 +1,5 @@
 // Dans ce fichier nous importons tout les composants ainsi que nos routes afin de lier sur notre application React
+// Nous importons entre autre le Header et le Footer qui restera identique sur l'ensemble de notre application
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style/index.css';

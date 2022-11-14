@@ -22,12 +22,17 @@
         padding-top: 15px;
         text-align: inherit;
         @include mobile-only{
-            font-size: 40px;
+            font-size: 34px;
+            line-height: 102%;
+            width: 65%;
         }
     }
     .maskGroup{
         height: 190px;
         width: 90%;
+        @include mobile-only{
+            height: 160px;
+        }
         .firstBackground{
             background: #000000;
             mix-blend-mode: darken;
@@ -36,6 +41,9 @@
             width: 90%;
             position: absolute;
             border-radius: 25px;
+            @include mobile-only{
+                height: 160px;
+            }
         }
         .background{
             width: 100%;
@@ -44,6 +52,10 @@
             background: #000000;
             mix-blend-mode: darken;
             border-radius: 25px;
+            @include mobile-only{
+                object-fit: fill;
+                height: 160px;
+            }
         }
     }
 }

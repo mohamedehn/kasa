@@ -11,8 +11,9 @@ function Slider ({slider}){
     
     let [currentSlide, setCurrentSlide] = useState(0);   
     
-    const sliderLength = slider.length
+    const sliderLength = slider.length // permet de vérifier la longueur du tableau
 
+    // Ci-dessous deux fonctions afin de revenir à la première photo que ce soit avec le bouton suivant ou précédent
     function nextSlide (){
         setCurrentSlide(currentSlide === sliderLength - 1 ? 0 : currentSlide + 1)
     }
