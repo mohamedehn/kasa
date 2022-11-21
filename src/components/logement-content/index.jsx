@@ -8,8 +8,8 @@ import { useState } from 'react'
 function LodgingContent ({product}){
 
     const rateArray = [1,2,3,4,5];
-    const [currentNumber, updateNumber] = useState(-1)
-
+    const [isOpen1, setIsOpen1] = useState(false)
+    const [isOpen2, setIsOpen2] = useState(false)
 
     return(
         <div className='lodgingContent'>
@@ -39,15 +39,22 @@ function LodgingContent ({product}){
                         </div>
                 </div>
                 <div className='lodgingText'>
-                            <div className='lodgingDescription'> <Collaps label="Description" updateNumber={updateNumber} number={0} currentNumber={currentNumber}/> 
-                                <div className='description' style={currentNumber === 0? {display : 'block'} : {display:'none'}}>{product.description}</div>
-                            </div>
-                            <div className='lodgingEquipments'> <Collaps label="Equipements" updateNumber={updateNumber} number={1} currentNumber={currentNumber}/> 
-                                <div className='equipments' style={currentNumber === 1? {display : 'block'} : {display:'none'}}>{product.equipments.map((list, index)=>(
-                                    <div key={index} className='listEquipments'>{list}</div>
-                                ))}
+                    <div className='lodgingDescription'> 
+                        <div onClick={()=>setIsOpen1(!isOpen1)}><Collaps label="Description"/></div>
+                        <div className='description' style={isOpen1? {display : 'block'} : {display:'none'}}>
+                            {product.description}
+                        </div>
+                    </div>
+                    <div className='lodgingEquipments'> 
+                        <div onClick={()=>setIsOpen2(!isOpen2)}><Collaps label="Equipements"/></div>
+                        <div className='equipments'style={isOpen2? {display : 'block'} : {display:'none'}}>
+                            {product.equipments.map((list, index)=>(
+                                <div key={index} className='listEquipments'>
+                                    {list}
                                 </div>
-                            </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
         </div>
     )

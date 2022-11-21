@@ -19,26 +19,14 @@ function Banner() {
         return() => window.removeEventListener('resize', updateWidth)
     })
 
-    if(width>=768){
-        return (
+    return (
             <section className='bannerPropos'>
                 <div className='maskGroupPropos'>
                     <div className='backgroundPropos'></div>
-                    <img src={backgroundPropos} alt="background" className='imgBackgroundPropos'/>
+                    <img src={width>=768 ? backgroundPropos : backgroundProposMobile} alt="background" className='imgBackgroundPropos'/>
                 </div>
             </section>
         )
-    }else{
-        return (
-            <section className='bannerPropos'>
-                <div className='maskGroupPropos'>
-                    <div className='backgroundPropos'></div>
-                    <img src={backgroundProposMobile} alt="background" className='imgBackgroundPropos'/>
-                </div>
-            </section>
-        )
-    }
-    
 }
 
 export default Banner;

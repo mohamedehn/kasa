@@ -164,7 +164,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-5.jpg"
 		],
-		"description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goÃ»t, au coeur de Montmartre.",
+		"description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goût, au coeur de Montmartre.",
 		"host": {
 			"name": "Line Rolland",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
@@ -224,7 +224,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-7-6.jpg"
 		],
-		"description": "Ce superbe appartement vous surprendra par son charme. Entièrement refait à neuf, il est équipé avec goÃ»t. La taille des pièces vous fera douter que vous êtes à Paris. Mais il vous suffit de sortir pour voir que vous êtes au coeur des plus belles attractions de Paris : le Louvre, la Tour Eiffel, le Grand Palais sont à deux pas. A vous de venir découvrir Paris !",
+		"description": "Ce superbe appartement vous surprendra par son charme. Entièrement refait à neuf, il est équipé avec goût. La taille des pièces vous fera douter que vous êtes à Paris. Mais il vous suffit de sortir pour voir que vous êtes au coeur des plus belles attractions de Paris : le Louvre, la Tour Eiffel, le Grand Palais sont à deux pas. A vous de venir découvrir Paris !",
 		"host": {
 			"name": "Sébastien Fournier",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg"
@@ -257,7 +257,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-8-5.jpg"
 		],
-		"description": "Paris vous tend les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goÃ»t. Vous pourrez profiter de tous les commerces seulement à quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
+		"description": "Paris vous tend les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goût. Vous pourrez profiter de tous les commerces seulement à quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
 		"host": {
 			"name": "Adrien Chiran",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
@@ -348,7 +348,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-11-5.jpg"
 		],
-		"description": "IdÃ©alement situÃ© Ã  2 pas de la place de la République, ce studio particuliÃ¨rement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intÃ©rÃªts grÃ¢ce aux 5 lignes de mÃ©tro qui sont Ã  5 minutes, vous pourrez rentabiliser votre temps passÃ© Ã  la capitale.",
+		"description": "Idéalement situé à 2 pas de la place de la République, ce studio particulièrement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intérêts grâce aux 5 lignes de métro qui sont à 5 minutes, vous pourrez rentabiliser votre temps passé à la capitale.",
 		"host": {
 			"name": "Sarah Devit",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
@@ -358,7 +358,7 @@
 		"equipments": [
 			"Rangements",
 			"Lit",
-			"SÃ¨che Cheveux",
+			"Sèche Cheveux",
 			"Wi-fi",
 			"TV",
 			"Bouilloire"
@@ -373,7 +373,7 @@
 	},
 	{
 		"id": "af6d2d48",
-		"title": "Bungalow dans la forÃªt",
+		"title": "Bungalow dans la forêt",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-1.jpg",
@@ -382,7 +382,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-12-5.jpg"
 		],
-		"description": "Quittez Paris pour vous mettre au vert. A seulement 30 minutes de la Gare du Nord, venez découvrir la forÃªt d'Ecouen directement depuis la fenÃªtre de votre bungalow. EntiÃ¨rement équipée, ce logement saura vous accueillir dans le confort, tout en vous permettant de vous concentrer sur l'essentiel. Le matin, ouvrez les fenÃªtres, et profitez du chant des oiseaux.",
+		"description": "Quittez Paris pour vous mettre au vert. A seulement 30 minutes de la Gare du Nord, venez découvrir la forêt d'Ecouen directement depuis la fenêtre de votre bungalow. Entièrement équipée, ce logement saura vous accueillir dans le confort, tout en vous permettant de vous concentrer sur l'essentiel. Le matin, ouvrez les fenêtres, et profitez du chant des oiseaux.",
 		"host": {
 			"name": "Sarah Devit",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
@@ -392,14 +392,14 @@
 		"equipments": [
 			"SDB",
 			"Cuisine équipéee",
-			"Toilettes sÃ¨ches",
+			"Toilettes sèches",
 			"Frigo",
 			"Bouilloire"
 		],
 		"tags": [
-			"ForÃªt",
+			"Forêt",
 			"Nature",
-			"MusÃ©e d'Ecouen"
+			"Musée d'Ecouen"
 		]
 	},
 	{
@@ -413,7 +413,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-13-6.jpg"
 		],
-		"description": "Vous chercher un endroit pour fÃªter un anniversaire entre amis tout en restant proche de Paris ? Ne cherchez plus ! EntiÃ¨rement équipéee, cette maison est l'endroit idÃ©al pour se regrouper.",
+		"description": "Vous chercher un endroit pour fêter un anniversaire entre amis tout en restant proche de Paris ? Ne cherchez plus ! Entièrement équipéee, cette maison est l'endroit idéal pour se regrouper.",
 		"host": {
 			"name": "Karen Guillet",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
@@ -426,19 +426,19 @@
 			"Frigo",
 			"Bouilloire",
 			"WIFI",
-			"TÃ©lÃ©vision",
+			"Télévision",
 			"Cintres",
-			"Ã‰quipements de base"
+			"Equipements de base"
 		],
 		"tags": [
-			"ForÃªt",
+			"Forêt",
 			"Nature",
 			"Grande maison"
 		]
 	},
 	{
 		"id": "ba55a0cc",
-		"title": "Maison T5 - Le VÃ©sinet",
+		"title": "Maison T5 - Le Voisinet",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-1.jpg",
@@ -447,7 +447,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-14-5.jpg"
 		],
-		"description": "Maison T5. IdÃ©ale pour grands groupes. 45 minutes de Paris Saint-Lazare.",
+		"description": "Maison T5. Idéale pour grands groupes. 45 minutes de Paris Saint-Lazare.",
 		"host": {
 			"name": "Karen Guillet",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
@@ -474,7 +474,7 @@
 	},
 	{
 		"id": "1e181317",
-		"title": "Loft de Luxe Ã  la DÃ©fense",
+		"title": "Loft de Luxe à la Défense",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-1.jpg",
@@ -483,16 +483,16 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-15-5.jpg"
 		],
-		"description": "Si vous Ãªtes Ã  la recherche de l'endroit idÃ©al pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idÃ©al. En plein coeur de la DÃ©fense, il dispose Ã©galement de tous les Ã©quipements pour que vous soyez comme chez vous.",
+		"description": "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
 		"host": {
 			"name": "Julie Donatella",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		"rating": "3",
-		"location": "Ile de France - La DÃ©fense",
+		"location": "Ile de France - La Défense",
 		"equipments": [
-			"Baie vitrÃ©e",
-			"TÃ©lÃ©vision",
+			"Baie vitrée",
+			"Télévision",
 			"Four",
 			"Frigo",
 			"Wi-fi",
@@ -500,7 +500,7 @@
 			"Parking"
 		],
 		"tags": [
-			"La DÃ©fense",
+			"La Défense",
 			"Loft",
 			"Luxe"
 		]
@@ -516,7 +516,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-4.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-16-5.jpg"
 		],
-		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. Ã€ deux pas de la ligne 3, vous pourrez accÃ©der Ã  toutes les attractions touristiques dont vous avez toujours rÃªvÃ©es.",
+		"description": "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. A deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours révées.",
 		"host": {
 			"name": "Julie Donatella",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
@@ -524,7 +524,7 @@
 		"rating": "4",
 		"location": "Ile de France - Levallois",
 		"equipments": [
-			"TÃ©lÃ©vision",
+			"Télévision",
 			"Four",
 			"Frigo",
 			"Hotte",
@@ -543,7 +543,7 @@
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-17-1.jpg"
 		],
-		"description": "Cette chambre dispose de toutes les facilitÃ©s nÃ©cessaires. Proche mÃ©tro et commerces.",
+		"description": "Cette chambre dispose de toutes les facilités nécessaires. Proche métro et commerces.",
 		"host": {
 			"name": "Hugo Perrier",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
@@ -569,7 +569,7 @@
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-2.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-18-3.jpg"
 		],
-		"description": "Ce studio dÃ©corÃ© avec goÃ»t sera votre nid douillet après une longue journÃ©e passée Ã  découvrir Paris.",
+		"description": "Ce studio décoré avec goût sera votre nid douillet après une longue journée passée à découvrir Paris.",
 		"host": {
 			"name": "Michel Romy",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
@@ -577,7 +577,7 @@
 		"rating": "4",
 		"location": "Ile de France - Paris 13e",
 		"equipments": [
-			"Ã‰quipements de base",
+			"Equipements de base",
 			"Four",
 			"Frigo",
 			"Wi-fi",
@@ -596,7 +596,7 @@
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-19-1.jpg"
 		],
-		"description": "Au coeur du quartier historique du Marais, cet appartement est idéal pour un couple à la découverte de Paris. Situé sur la rue de Rivoli, il est Ã  5 minutes du Louvre.",
+		"description": "Au coeur du quartier historique du Marais, cet appartement est idéal pour un couple à la découverte de Paris. Situé sur la rue de Rivoli, il est à 5 minutes du Louvre.",
 		"host": {
 			"name": "Nathalie Jean",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
